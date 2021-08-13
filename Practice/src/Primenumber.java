@@ -4,6 +4,7 @@ public class Primenumber {
 	public static void main(String[] args) {
 
 		int i, m = 0, flag = 0;
+		int a=0;
 		int n = 23;// it is the number to be checked
 		m = n / 2;
 		if (n == 0 || n == 1) {
@@ -14,6 +15,7 @@ public class Primenumber {
 					System.out.println(n + " is not prime number");
 					flag = 1;
 					break;
+					
 				}
 			}
 			if (flag == 0) {
